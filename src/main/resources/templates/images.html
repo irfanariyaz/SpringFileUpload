@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h1> Uploaded Image</h1>
+<hr/>
+<h4>Upload Single File:</h4>
+<img th:src="@{'/upload/' + ${imageName}}" alt = "image uploaded" height="200px" width="200px"/>
+<hr/>
+
+<!--<div th:if="${message}">-->
+<!--    <h2 th:text="${message}"/>-->
+<!--</div>-->
+</body>
+</html>
